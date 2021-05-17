@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 $(call inherit-product, device/xiaomi/ysl/device.mk)
 
 # Inherit some common ssos stuff.
-$(call inherit-product, vendor/ssos/config/common.mk)
+$(call inherit-product, vendor/ssos/config/common_full_phone.mk)
 
 # Inherit some common ssos flags
 SSOS_BUILD_TYPE := OFFICIAL
